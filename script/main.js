@@ -2,6 +2,7 @@ document.getElementById("discover-new").addEventListener("click",function(event)
     window.location.href="./que.html"
 })
 document.getElementById("cards-1").addEventListener("click",function(event) {
+    alert("Board updated successfully")
     const taskAssigned = document.getElementById("task-assigned").innerText;
     const convertedTaskAssigned = parseFloat(taskAssigned);
     const sub = convertedTaskAssigned - 1 ;
@@ -15,6 +16,7 @@ document.getElementById("cards-1").addEventListener("click",function(event) {
     this.disabled=true;
 })
 document.getElementById("cards-2").addEventListener("click",function(event) {
+    alert("Board updated successfully")
     const taskAssigned = document.getElementById("task-assigned").innerText;
     const convertedTaskAssigned = parseFloat(taskAssigned);
     const sub = convertedTaskAssigned - 1 ;
@@ -28,6 +30,7 @@ document.getElementById("cards-2").addEventListener("click",function(event) {
     this.disabled=true;
 })
 document.getElementById("cards-3").addEventListener("click",function(event) {
+    alert("Board updated successfully")
     const taskAssigned = document.getElementById("task-assigned").innerText;
     const convertedTaskAssigned = parseFloat(taskAssigned);
     const sub = convertedTaskAssigned - 1 ;
@@ -41,6 +44,7 @@ document.getElementById("cards-3").addEventListener("click",function(event) {
     this.disabled=true;
 })
 document.getElementById("cards-4").addEventListener("click",function(event) {
+    alert("Board updated successfully")
     const taskAssigned = document.getElementById("task-assigned").innerText;
     const convertedTaskAssigned = parseFloat(taskAssigned);
     const sub = convertedTaskAssigned - 1 ;
@@ -54,6 +58,7 @@ document.getElementById("cards-4").addEventListener("click",function(event) {
     this.disabled=true;
 })
 document.getElementById("cards-5").addEventListener("click",function(event) {
+    alert("Board updated successfully")
     const taskAssigned = document.getElementById("task-assigned").innerText;
     const convertedTaskAssigned = parseFloat(taskAssigned);
     const sub = convertedTaskAssigned - 1 ;
@@ -67,6 +72,7 @@ document.getElementById("cards-5").addEventListener("click",function(event) {
     this.disabled=true;
 })
 document.getElementById("cards-6").addEventListener("click",function(event) {
+    alert("Board updated successfully")
     const taskAssigned = document.getElementById("task-assigned").innerText;
     const convertedTaskAssigned = parseFloat(taskAssigned);
     const sub = convertedTaskAssigned - 1 ;
